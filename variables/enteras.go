@@ -2,6 +2,7 @@ package variables
 
 import "fmt"
 
+// Visible a todo el paquete
 func MostrarEnteros() {
 	var intcomun int
 	intde32 := int32(10)
