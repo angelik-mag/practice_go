@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/angelik-mag/practice_go/files"
+	"github.com/angelik-mag/practice_go/mapas"
 )
 
 // Función principal de GO
@@ -38,6 +38,7 @@ func main() {
 
 		//fmt.Println(ejercicios.GenerarTabla())
 		files.SumarTabla()
+		arreglos_slices.Capacidad()
 	*/
-	files.LeerArchivoDos()
+	mapas.MostrarMapas()
 }
