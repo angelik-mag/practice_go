@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/angelik-mag/practice_go/mapas"
+	"github.com/angelik-mag/practice_go/users"
 )
 
 // Función principal de GO
@@ -39,6 +39,7 @@ func main() {
 		//fmt.Println(ejercicios.GenerarTabla())
 		files.SumarTabla()
 		arreglos_slices.Capacidad()
+		mapas.MostrarMapas()
 	*/
-	mapas.MostrarMapas()
+	users.AltaUsuario()
 }
